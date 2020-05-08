@@ -1,6 +1,6 @@
 """
 Fibonacci Series
-This script print fibonacci series for n value of numbers using variable swap to implement recursion.
+This script prints Fibonacci series for n value of numbers using variable swap to implement recursion.
 @author : MarkisDev
 @copyright : https://markis.dev
 """    
