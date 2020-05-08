@@ -4,7 +4,7 @@ This script prints the factorial of an entered number.
 @author : MarkisDev
 @copyright : https://markis.dev
 """
-# Taking input from user and initializing factorial variable
+# Taking input from user and initializing the factorial variable
 number = int(input("Enter a number: "))
 factorial = 1
 
