@@ -4,13 +4,20 @@ This script print checks whether a string is a palindrome or not.
 @author : MarkisDev
 @copyright : https://markis.dev
 """
-s = str(input("Enter a word: ")).lower().strip()
-ns = ""
-l = len(s)
-for i in range(l-1,-1,-1):
-    ns = ns + s[i]
-if(s==ns):
-    print(ns + " is a palindrome")
+# Taking input from user and converting it to lower case and trimming whitespaces
+word = str(input("Enter a word: ")).lower().strip()
+reversedWord = ""
+
+# Finding length of the word
+wordLength = len(word)
+
+# Loop to reverse the word
+for i in range(wordLength-1,-1,-1):
+    reversedWord = reversedWord + word[i]
+
+# Conditions to check if the word is a palindrome
+if(word==reversedWord):
+    print(reversedWord + " is a palindrome")
 else:
-    print(s + " is not palindrome")
+    print(word + " is not palindrome")
 
