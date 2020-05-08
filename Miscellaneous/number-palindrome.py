@@ -1,6 +1,6 @@
 """
 Number Palindrome
-This script print checks whether a number is a Palindrome or not, without converting it to a string.
+This script print checks whether a number is a Palindrome without converting it to a string.
 @author : MarkisDev
 @copyright : https://markis.dev
 """
