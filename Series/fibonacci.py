@@ -20,5 +20,7 @@ for i in range(1 , number):
 # Variable swapping 
     a = b
     b = c 
+
+# Printing the output
 print("The sequence is as follows: ")
 print(seriesList)
