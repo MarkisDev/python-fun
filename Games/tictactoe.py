@@ -1,3 +1,9 @@
+"""
+Tic Tac Toe
+This script is a console version of Tic Tac Toe.
+@author : MarkisDev
+@copyright : https://markis.dev
+"""  
 import random
 import os
 
