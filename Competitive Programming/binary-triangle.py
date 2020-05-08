@@ -3,6 +3,7 @@ Binary Triangle
 This script prints a Binary Triangle with inputted number of lines.
 @author : MarkisDev
 @copyright : https://markis.dev
+@source : https://www.geeksforgeeks.org/program-to-print-modified-binary-triangle-pattern/
 """
 # Taking input from user for number of lines
 number = int(input("Enter the number of lines: "))
