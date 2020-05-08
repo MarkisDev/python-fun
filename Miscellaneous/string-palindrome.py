@@ -1,6 +1,6 @@
 """
 String Palindrome
-This script print checks whether a string is a palindrome or not.
+This script print checks whether a string is a Palindrome or not.
 @author : MarkisDev
 @copyright : https://markis.dev
 """
@@ -17,7 +17,7 @@ for i in range(wordLength-1,-1,-1):
 
 # Conditions to check if the word is a palindrome
 if(word==reversedWord):
-    print(reversedWord + " is a palindrome")
+    print(reversedWord + " is a Palindrome")
 else:
-    print(word + " is not palindrome")
+    print(word + " is not Palindrome")
 

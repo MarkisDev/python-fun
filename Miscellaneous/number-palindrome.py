@@ -1,6 +1,6 @@
 """
 Number Palindrome
-This script print checks whether a number is a palindrome or not, without converting it to a string.
+This script print checks whether a number is a Palindrome or not, without converting it to a string.
 @author : MarkisDev
 @copyright : https://markis.dev
 """
@@ -17,6 +17,6 @@ while(number > 0):
 
 # Conditions to check if number is a palindrome
 if (reversedNumber == printNumber):
-    print(str(printNumber) +" is a palindrome.")
+    print(str(printNumber) +" is a Palindrome.")
 else:
-        print(str(printNumber) +" is not a palindrome.")
+        print(str(printNumber) +" is not a Palindrome.")
