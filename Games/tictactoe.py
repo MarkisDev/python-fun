@@ -173,7 +173,7 @@ def tossChooser(p1, p2):
         tossChooser(p1, p2)
 
 # Instructions for the game
-def instructions(p):
+def instructions():
     os.system('cls' if os.name == 'nt' else 'clear')
     print("You have chosen instructions:")
     print("\t\t\t"+ "  " + "1" + "  |  " + "2" + "  |  " + "3")
@@ -182,13 +182,8 @@ def instructions(p):
     print("\t\t\t-----|-----|-----")
     print("\t\t\t"+ "  " + "7" + "  |  " + "8" + "  |  " + "9")
     print("\t\t\t-----|-----|-----")
-    print("\nThe player has to enter the number where he/she would like to place their mark. \n The one who gets 3 consecutive marks in linear directions, WINS!")
-    if (p == "p1"):
-        onep1()
-    elif (p == "p2"):
-        onep2()
-    else:
-        menu()
+    print("\nThe player has to enter the number where he/she would like to place their mark. \n The one who gets 3 consecutive marks in linear directions, WINS\n!")
+    menu()
 
 # Quit the game
 def exiter():
